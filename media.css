@@ -1,4 +1,3 @@
-/* Мобильді құрылғыларға бейімдеу (515px төмен) */
 @media screen and (max-width: 515px) {
     header {
         height: auto;
@@ -43,8 +42,6 @@
         grid-template-columns: 1fr;
     }
 }
-
-/* Өздік жұмыс: Планшеттерге арналған медиа сұрау (iPad, 768px-ге дейін) */
 @media screen and (min-width: 516px) and (max-width: 768px) {
     #grid {
         grid-template-columns: 1fr 1fr;
